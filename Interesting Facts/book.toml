@@ -1,0 +1,9 @@
+[book]
+authors = ["Andrey Vladimirov"]
+multilingual = false
+src = "src"
+title = ""
+
+[output.html]
+mathjax-support = true
+additional-js = ["./change_font.js"]

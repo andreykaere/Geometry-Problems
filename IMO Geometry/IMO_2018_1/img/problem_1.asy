@@ -42,11 +42,11 @@ dot("$B$", B, S+E, fontsize(15));
 dot("$C$", C, S+W, fontsize(15));
 
 draw(Label("$\Gamma$", Relative(0.33), fontsize(15)), w);
-draw(e, dashed);
+draw(e, dashed + linewidth(0.3));
 
 
-draw(segment(G, Gp), dashed);
-draw(segment(F, Fp), dashed);
+draw(segment(G, Gp), dashed + linewidth(0.3));
+draw(segment(F, Fp), dashed + linewidth(0.3));
 
 dot("$G$", G, S+W*2, fontsize(15));
 dot("$F$", F, S*1.2+E, fontsize(15));
@@ -59,11 +59,11 @@ markrightangle(F, Fp, A, 5);
 draw(segment(F, G));
 draw(segment(E_, D));
 
-draw(segment(C, G));
-draw(segment(E_, G));
+draw(segment(C, G), linewidth(0.2));
+draw(segment(E_, G), linewidth(0.2));
 
-draw(segment(D, F));
-draw(segment(B, F));
+draw(segment(D, F), linewidth(0.2));
+draw(segment(B, F), linewidth(0.2));
 
 draw(segment(A, F));
 draw(segment(A, G));
@@ -71,11 +71,11 @@ draw(segment(A, G));
 dot("$B'$", Bp, fontsize(15));
 dot("$C'$", Cp, N+W*0.6, fontsize(15));
 
-draw(segment(A, Cp));
-draw(segment(A, Bp));
+draw(segment(A, Cp), linewidth(0.2));
+draw(segment(A, Bp), linewidth(0.2));
 
-draw(segment(G, Cp));
-draw(segment(F, Bp));
+draw(segment(G, Cp), linewidth(0.2));
+draw(segment(F, Bp), linewidth(0.2));
 
 
 
