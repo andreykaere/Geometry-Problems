@@ -6,4 +6,6 @@
 \\(F\\) диаметрально противоположна точке \\(A_0\\). Докажите, что \\(A\\), 
 \\(F\\) и \\(Q\\) лежат на одной прямой.
 
-![alt text](../img/facts/fact1/fact1.png)
+<!-- ![alt text](../img/facts/fact1/fact1.png) -->
+<img src="../img/facts/fact1/fact1.png" height="400">
+
