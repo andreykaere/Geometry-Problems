@@ -5,4 +5,4 @@
 \\(ADB\\) и \\(CDB\\) соответственно. Тогда \\(\alpha\\) и \\(\beta\\) касаются 
 \\(BD\\) в одной точке.
 
-![picture](../img/facts/fact2/fact2.png)
+![alt text](../img/facts/fact2/fact2.png)
